@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2019_10_30_235504) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "user_id"
-    t.string "avatar"
+    t.string "picture"
     t.index ["user_id"], name: "index_grams_on_user_id"
   end
 
